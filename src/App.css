@@ -1,0 +1,67 @@
+.tarjeta {
+  background-color: #e3b1c8;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 25px;
+  color: #000000;
+  transition: transform 0.5s ease;
+}
+
+
+.tablero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 700px; 
+  margin: 30px auto; 
+  margin-bottom: 150px;
+  padding: 20px;
+  background-color: #fdcae1;
+  border-radius: 15px;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+html {
+  background: linear-gradient(to bottom,#FCD4E6, #E3A1C0);
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.App h1{
+  color: #e3b1c8;
+  margin: 0px;
+}
+
+
+.boton {
+  padding: 10px 20px;
+  background-color: #e3b1c8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #E39ABC;
+}
+
+.boton:active {
+  background-color: #E39ABC;
+}
+.App p {
+margin: 4px;
+}
