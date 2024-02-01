@@ -5,7 +5,6 @@ import Cronometro from './Cronometro';
 import Descarga from './Descarga'
 
 var contador = 0;
-const duracionDelJuego = 600;
 const answerArr = ['🍉', '❣️', '🌟', '💞', '🦩', '🌹', '🎀', '🌸', '🎈','🍉', '❣️', '🌟', '💞', '🦩', '🌹', '🎀', '🌸', '🎈']
   .map((n) => {
     return {
@@ -55,7 +54,7 @@ export default function App() {
     console.log(contador)
   }, [itemIds]);
   useEffect(() =>{
-    if (contador === 9)
+    if (contador == 9)
       setJuegoCompleto(true);
   })
   return (
