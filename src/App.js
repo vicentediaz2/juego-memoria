@@ -59,8 +59,8 @@ export default function App() {
   })
   return (
     <div className="App">
-      <h1>Que haremos hoy?</h1>
-      <p>Resuelva un este pequeño juego para averiguarlo</p>
+      <h1>Cual sera la sorpresa?</h1>
+      <p>Resuelva un este pequeño juego de memoria para averiguarlo</p>
       <Cronometro duracionDelJuego={600} juegoCompleto={juegoCompleto} />
       {juegoCompleto && <Descarga></Descarga>}
       <div className="tablero">

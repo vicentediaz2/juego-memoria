@@ -18,15 +18,14 @@ const DescargarArchivo = () => {
   ⠀⠀⠈⠙⠛⢲⣏⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⠴⠞⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
   ⠀⠀⠀⠀⠀⠀⠈⠙⣷⣤⣀⣀⣀⣀⣀⣀⣀⣠⣤⠴⠶⠚⠋⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
   
-
-  
-  ▒█▄░▒█ ▒█▀▀▀█ ▒█▀▀█ ▒█░▒█ ▒█▀▀▀   ▒█▀▀▄ ▒█▀▀▀  
-  ▒█▒█▒█ ▒█░░▒█ ▒█░░░ ▒█▀▀█ ▒█▀▀▀   ▒█░▒█ ▒█▀▀▀  
-  ▒█░░▀█ ▒█▄▄▄█ ▒█▄▄█ ▒█░▒█ ▒█▄▄▄   ▒█▄▄▀ ▒█▄▄▄  
+ 
   
   ▒█▀▀█ ▒█▀▀▀█ ▒█▀▄▀█ ▒█▀▀█ ▒█░░░ ▒█▀▀▀ ▀▀█▀▀ ▒█▀▀▀█ ▒█▀▀▀█ 
   ▒█░░░ ▒█░░▒█ ▒█▒█▒█ ▒█▄▄█ ▒█░░░ ▒█▀▀▀ ░▒█░░ ▒█░░▒█ ░▀▀▀▄▄ 
-  ▒█▄▄█ ▒█▄▄▄█ ▒█░░▒█ ▒█░░░ ▒█▄▄█ ▒█▄▄▄ ░▒█░░ ▒█▄▄▄█ ▒█▄▄▄█`;
+  ▒█▄▄█ ▒█▄▄▄█ ▒█░░▒█ ▒█░░░ ▒█▄▄█ ▒█▄▄▄ ░▒█░░ ▒█▄▄▄█ ▒█▄▄▄█
+
+  
+  *invitacion valida para una tarde de completos`;
 
   const descargarArchivo = () => {
     const blob = new Blob([contenidoArchivo], { type: 'text/plain' });
@@ -43,8 +42,8 @@ const DescargarArchivo = () => {
 
   return (
     <div>
-        <p>¡Termino el juego!</p>
-      <button className="boton" onClick={descargarArchivo}>Descarga Invitacion</button>
+        <p>Completo el juego!</p>
+      <button className="boton" onClick={descargarArchivo}>Descargar Invitacion</button>
     </div>
   );
 };
